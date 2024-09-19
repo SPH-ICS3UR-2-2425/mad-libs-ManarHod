@@ -30,11 +30,14 @@ public class Main {
 		in.nextLine();
 		System.out.println("Enter a insect");
 		String insect = in.nextLine();
-		
+		System.out.println("Enter another girl's name");
+		String name2 = in.nextLine();
+		System.out.println("Enter a word you would say to greet someone");
+		String greeting = in.nextLine();
 
 		
 		//STORY
-		System.out.println("On a random "+weekday+" I was feeling "+emotion+" so I went to the "+place+" with "+name+". On our walk there we ran into a vendor selling some "+fruit+" for "+decNumber+". After buying the fruit, we found "+score+" "+insect+" in the box!!");
+		System.out.println("On a random "+weekday+" I was feeling "+emotion+" so I went to the "+place+" with "+name+". On our walk there we ran into a vendor selling some "+fruit+"'s for "+decNumber+" dollars. After buying the fruit, we found "+score+" "+insect+"'s in the box!! When we finally made it to our destination, we took a seat on a bench outside and saw our other friend "+name2+" walking by with her mom. We waved at them and they came over and said "+greeting+";. Today was a really fun day and I would love to do it again!");
 			}
 
 }
